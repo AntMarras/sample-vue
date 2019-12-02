@@ -1,0 +1,58 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "sample",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.5.1",
+    "applicationType": "monolith",
+    "baseName": "jhipster",
+    "packageName": "sample",
+    "packageFolder": "sample",
+    "serverPort": "8080",
+    "authenticationType": "session",
+    "cacheProvider": "caffeine",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "rememberMeKey": "3dbdc77710109674e96002ddf85d56492226d115d4a0304c3aa6b4a78c95e56f4ccaef26306fe03d497bd5fc3b635a99b107",
+    "embeddableLaunchScript": false,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-vuejs",
+        "version": "1.2.0"
+      }
+    ],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": ["en"],
+    "blueprints": [
+      {
+        "name": "generator-jhipster-vuejs",
+        "version": "1.2.0"
+      }
+    ]
+  },
+  "generator-jhipster-vuejs": {
+    "jhipsterVersion": "6.4.1",
+    "applicationType": "monolith",
+    "baseName": "jhipster",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "vue",
+    "clientTheme": "none",
+    "clientThemeVariant": ""
+  }
+}
